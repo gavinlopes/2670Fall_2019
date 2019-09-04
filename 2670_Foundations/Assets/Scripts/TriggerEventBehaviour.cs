@@ -1,11 +1,9 @@
-﻿using System;
-using UnityEngine;
+﻿using UnityEngine;
 using UnityEngine.Events;
 
 public class TriggerEventBehaviour : MonoBehaviour
 {
-
-   public UnityEvent TriggerEnterEvent, TriggerStayEvent;
+    public UnityEvent TriggerEnterEvent, TriggerStayEvent;
    
    private void OnTriggerEnter(Collider other)
    {
