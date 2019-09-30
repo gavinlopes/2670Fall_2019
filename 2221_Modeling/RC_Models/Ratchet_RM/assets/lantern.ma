@@ -1,6 +1,6 @@
 //Maya ASCII 2018 scene
 //Name: lantern.ma
-//Last modified: Mon, Sep 30, 2019 12:06:24 PM
+//Last modified: Mon, Sep 30, 2019 04:39:02 PM
 //Codeset: 1252
 requires maya "2018";
 currentUnit -l centimeter -a degree -t film;
@@ -13,17 +13,17 @@ fileInfo "license" "education";
 createNode transform -s -n "persp";
 	rename -uid "701A6DF5-4E93-152B-6616-C19D3BB35C48";
 	setAttr ".v" no;
-	setAttr ".t" -type "double3" -35.501411897963379 33.759951609321853 36.114197895195488 ;
-	setAttr ".r" -type "double3" -13.538352751545986 1376.9999999999502 1.7514434130745162e-15 ;
+	setAttr ".t" -type "double3" 9.0932496773834899 32.66847701789802 78.335638118226029 ;
+	setAttr ".r" -type "double3" -9.9383527515887078 1433.3999999999758 -1.0005542454716568e-16 ;
 createNode camera -s -n "perspShape" -p "persp";
 	rename -uid "3980DD6E-403B-B903-E794-8985DEFC41AA";
 	setAttr -k off ".v" no;
 	setAttr ".fl" 34.999999999999993;
-	setAttr ".coi" 81.776799338680888;
+	setAttr ".coi" 87.683919728333706;
 	setAttr ".imn" -type "string" "persp";
 	setAttr ".den" -type "string" "persp_depth";
 	setAttr ".man" -type "string" "persp_mask";
-	setAttr ".tp" -type "double3" 0.27529373620124242 32.3119322547157 -0.257164843657538 ;
+	setAttr ".tp" -type "double3" 18.950877017647954 17.467892075908736 -7.4562527012251181 ;
 	setAttr ".hc" -type "string" "viewSet -p %camera";
 	setAttr ".ai_translator" -type "string" "perspective";
 createNode transform -s -n "top";
@@ -68399,19 +68399,19 @@ createNode mesh -n "lantern_wire_secondary0Shape1" -p "lantern_wire_secondary01"
 	setAttr ".hfd" -type "dataPolyComponent" Index_Data Face 0 ;
 	setAttr ".ai_translator" -type "string" "polymesh";
 createNode lightLinker -s -n "lightLinker1";
-	rename -uid "75BAA163-4729-4E73-40BF-909F7F0D916C";
+	rename -uid "A948D22C-4741-0C7F-1E7B-37977E27E0DF";
 	setAttr -s 2 ".lnk";
 	setAttr -s 2 ".slnk";
 createNode shapeEditorManager -n "shapeEditorManager";
-	rename -uid "ED4E6DC2-44BA-838C-6A79-D5A3EE527767";
+	rename -uid "36EA7F2F-4CF6-3B76-14DC-9A8FCC71E0F8";
 createNode poseInterpolatorManager -n "poseInterpolatorManager";
-	rename -uid "687A5C7B-4DFD-F67C-A779-218C66E60482";
+	rename -uid "D5578830-45CC-32A7-914C-0193614C1E49";
 createNode displayLayerManager -n "layerManager";
-	rename -uid "A17AF65F-4D12-2A18-0E6B-E9900FA4D537";
+	rename -uid "61224D0C-4A20-D8F7-2D6B-B6B41A93EA5D";
 createNode displayLayer -n "defaultLayer";
 	rename -uid "226D445A-459D-3045-117D-779F5350FC2D";
 createNode renderLayerManager -n "renderLayerManager";
-	rename -uid "9B403B02-4C31-7E1F-62A7-8986726F3D08";
+	rename -uid "57BE17F2-4194-7D12-5456-8E954207B1E1";
 createNode renderLayer -n "defaultRenderLayer";
 	rename -uid "FEB90E03-4972-365C-D1FA-E98C23B462CA";
 	setAttr ".g" yes;
@@ -68506,8 +68506,6 @@ select -ne :defaultResolution;
 select -ne :hardwareRenderGlobals;
 	setAttr ".ctrs" 256;
 	setAttr ".btrs" 512;
-select -ne :ikSystem;
-	setAttr -s 4 ".sol";
 connectAttr ":defaultColorMgtGlobals.cme" "|ref|ref.cme";
 connectAttr ":defaultColorMgtGlobals.cfe" "|ref|ref.cmcf";
 connectAttr ":defaultColorMgtGlobals.cfp" "|ref|ref.cmcp";
