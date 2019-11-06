@@ -12,10 +12,12 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/RodayneClass.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/MartyClass.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/BoolData.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/AnthonyClass.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/GameAction.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/RenderMatte.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/MartyClass.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/RodayneClass.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -25,6 +27,8 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/MartyClass.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/GameAction.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/AnthonyClass.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/BoolData.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/RenderMatte.cs" />
       </list>
     </option>
   </component>
@@ -77,6 +81,7 @@
       <updated>1572900886797</updated>
       <workItem from="1572900891181" duration="244000" />
       <workItem from="1572901213267" duration="1334000" />
+      <workItem from="1573068934706" duration="851000" />
     </task>
     <servers />
   </component>
