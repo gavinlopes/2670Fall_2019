@@ -12,12 +12,17 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Interface.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/BoolData.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/AnthonyClass.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/CharacterBase.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/GameAction.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/RenderMatte.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/CharacterMoveJump.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/MartyClass.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/FlipCharacter.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/RodayneClass.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/CharacterBehaviour.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -29,6 +34,11 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/AnthonyClass.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/BoolData.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/RenderMatte.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/CharacterBehaviour.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/CharacterBase.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/FlipCharacter.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Interface.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/CharacterMoveJump.cs" />
       </list>
     </option>
   </component>
@@ -61,10 +71,10 @@
       <option name="userSelectedPid" value="false" />
       <method v="2" />
     </configuration>
-    <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost">
+    <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost" pid="1584">
       <option name="allowRunningInParallel" value="false" />
       <option name="listenPortForConnections" value="false" />
-      <option name="pid" />
+      <option name="pid" value="1584" />
       <option name="userSelectedPid" value="false" />
       <method v="2" />
     </configuration>
@@ -82,6 +92,7 @@
       <workItem from="1572900891181" duration="244000" />
       <workItem from="1572901213267" duration="1334000" />
       <workItem from="1573068934706" duration="851000" />
+      <workItem from="1573072657952" duration="2988000" />
     </task>
     <servers />
   </component>
@@ -105,6 +116,40 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="LOCAL_CHANGES_DETAILS_PREVIEW_SHOWN" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state width="1755" height="304" key="GridCell.Tab.0.bottom" />
+    <state width="1755" height="304" key="GridCell.Tab.0.bottom/1920.1080" />
+    <state width="1755" height="304" key="GridCell.Tab.0.center" />
+    <state width="1755" height="304" key="GridCell.Tab.0.center/1920.1080" />
+    <state width="1755" height="304" key="GridCell.Tab.0.left" />
+    <state width="1755" height="304" key="GridCell.Tab.0.left/1920.1080" />
+    <state width="1755" height="304" key="GridCell.Tab.0.right" />
+    <state width="1755" height="304" key="GridCell.Tab.0.right/1920.1080" />
+    <state width="1755" height="304" key="GridCell.Tab.1.bottom" />
+    <state width="1755" height="304" key="GridCell.Tab.1.bottom/1920.1080" />
+    <state width="1755" height="304" key="GridCell.Tab.1.center" />
+    <state width="1755" height="304" key="GridCell.Tab.1.center/1920.1080" />
+    <state width="1755" height="304" key="GridCell.Tab.1.left" />
+    <state width="1755" height="304" key="GridCell.Tab.1.left/1920.1080" />
+    <state width="1755" height="304" key="GridCell.Tab.1.right" />
+    <state width="1755" height="304" key="GridCell.Tab.1.right/1920.1080" />
+    <state width="1755" height="304" key="GridCell.Tab.2.bottom" />
+    <state width="1755" height="304" key="GridCell.Tab.2.bottom/1920.1080" />
+    <state width="1755" height="304" key="GridCell.Tab.2.center" />
+    <state width="1755" height="304" key="GridCell.Tab.2.center/1920.1080" />
+    <state width="1755" height="304" key="GridCell.Tab.2.left" />
+    <state width="1755" height="304" key="GridCell.Tab.2.left/1920.1080" />
+    <state width="1755" height="304" key="GridCell.Tab.2.right" />
+    <state width="1755" height="304" key="GridCell.Tab.2.right/1920.1080" />
+    <state width="1755" height="304" key="GridCell.Tab.3.bottom" />
+    <state width="1755" height="304" key="GridCell.Tab.3.bottom/1920.1080" />
+    <state width="1755" height="304" key="GridCell.Tab.3.center" />
+    <state width="1755" height="304" key="GridCell.Tab.3.center/1920.1080" />
+    <state width="1755" height="304" key="GridCell.Tab.3.left" />
+    <state width="1755" height="304" key="GridCell.Tab.3.left/1920.1080" />
+    <state width="1755" height="304" key="GridCell.Tab.3.right" />
+    <state width="1755" height="304" key="GridCell.Tab.3.right/1920.1080" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
