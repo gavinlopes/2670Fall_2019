@@ -16,6 +16,7 @@
       <Path>Library</Path>
       <Path>Logs</Path>
       <Path>Temp</Path>
+      <Path>WeaponSystem</Path>
       <Path>obj</Path>
       <Path>tower</Path>
     </explicitExcludes>
